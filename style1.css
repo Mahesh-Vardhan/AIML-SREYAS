@@ -21,7 +21,7 @@ body {
   padding: 25px;
   border-radius: 25px;
   height: 400px;
-  transition: all 0.3s;
+  transition: all 3s;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
@@ -249,6 +249,30 @@ body {
   opacity: 0.2;
   transition: all 0.3s;
 }
+/* Add this CSS to style the footer */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  background-color: #000000; /* Choose a background color for the footer */
+  color: #f0f0f0; /* Choose a text color for the footer */
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .blog-slider__pagination .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fd3838;
