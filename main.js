@@ -299,12 +299,6 @@ cardHeader.appendChild(cardImage);
 
 //Append card header to card
 card.appendChild(cardHeader);
-
 //Append card to body
 document.body.appendChild(card); 
-
-
 insertPictureInsideCard('1.jpg', 'Example Image'); 
-
-
-
